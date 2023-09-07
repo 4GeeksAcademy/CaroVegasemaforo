@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.content div{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+
+.glowRed{
+    box-shadow: 0px 0px 12px 6px rgba(255, 0, 0, 0.668);
+}
+.yellow{
+    background-color: yellow;
+}
+.glowYellow{
+    box-shadow: 0px 0px 12px 6px rgba(255, 251, 0, 0.604);
+}
+.green{
+    background-color: green;
+}
+.glowGreen{
+    box-shadow: 0px 0px 12px 6px rgba(109, 234, 7, 0.696);
+}
