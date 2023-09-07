@@ -10,11 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-
+.content{
+    display: inline-block;
+    border-radius: 25px;
+}
+.box{
+    width:20px;
+    height: 150px;
+}
 .content div{
     width: 100px;
     height: 100px;
-    
     border-radius: 100%;
 }
 .red{

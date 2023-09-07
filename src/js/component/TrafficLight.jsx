@@ -40,9 +40,9 @@ const TrafficLight = () => {
     }
 
 	return (
-        <div className="d-flex justify-content-center">
-            <div></div>
-		    <div className="content bg-dark m-2 p-2">
+        <div className="flex-column d-flex align-items-center">
+            <div className="box bg-dark"></div>
+		    <div className="content bg-dark mx-2 mb-2 p-2">
 			    <div className={backgroundB1} onClick={clickButton1} ></div>
                 <div className={backgroundB2} onClick={clickButton2} ></div>
                 <div className={backgroundB3} onClick={clickButton3}></div>
